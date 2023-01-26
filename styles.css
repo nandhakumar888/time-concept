@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;900&family=Red+Hat+Text:ital,wght@1,700&display=swap");
+
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Heebo", sans-serif;
+
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    
+    font-size:100px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
